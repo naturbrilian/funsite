@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Blogspot vs DigitalPress">
+        <title>Mengatasi masalah file di flashdisk yang ke hidden karena virus| Lieba Natur Brilian Web and Funsite</title>
+        <link rel="stylesheet" href="../css/water.css">
+    </head>
+</html>
+
+<body>
+    <header>
+        <nav>
+            <a href="/id/index.html">Beranda</a>
+            <a href="/id/about.html">Tentangku</a>
+            <a href="/id/blogs.html" aria-current="page">Blog</a>
+            <a href="/id/resume.html">Resume</a>
+            <a href="/id/navigation.html">Navigasi</a>
+        </nav>
+
+        <h1>
+            Mengatasi masalah file di flashdisk yang ke hidden karena virus
+        </h1>
+        </header>
+
+        <main>
+            <blockquote>
+                <h3 id="note">
+                    NOTE
+                </h3>
+                <p>
+                    Sebenarnya ini artikel adalah salinan dari postingan yang aku buat di fb kemarin
+                </p>
+            </blockquote>
+
+            <p>
+                Aku kan kemarin sempat tiba-tiba buat postingan di Facebook, karena sebuah postingan di salah satu grup yang tiba-tiba flashdisknya saat dicolokin ke laptopnya ternyata kena hidden, lalu warga grup tersebut berkomentar "disinilah peran Smadav diperlukan".<br>
+            </p>
+            <p>
+                Nah, sedangkan Smadav sendiri itu ternyata menggunakan metode yang sama aku gunakan 5 tahun yang lalu, tepatnya setelah aku menancapkan flashdisk ku pc milik kantor tempat aku bekerja. Waktu itu karena mau mengunggah berkas video ke YouTube yang terpaksa pakai laptopku gara-gara PC kantor tidak terpasang driver wifi/jaringannya.<br>
+            </p>
+
+            <h2>
+                Cara mengatasinya
+            </h2>
+            
+            <figure>
+                <img src="/id/blogs/assets/512274831_697499616383376_570875852809618813_n.jpg">
+            </figure>
+
+            <p>
+                Nah, buat yang masih mengandalkan smadav, sebenarnya bisa menggunakan perintah ini di <em>Command Prompt</em><br>
+            </p>
+            <div class="code-display-wrapper">
+                <pre>
+                    <code class="language-script">
+attrib -s -r -h *.* /s /d /l
+                    </code>
+                </pre>
+            </div>
+            <p>
+                lalu tekan enter, jangan lupa untuk mengganti direktori tujuan ke flashdiskmu.
+            </p>
+
+            <blockquote>
+                <h3 id="note">
+                    CATATAN TAMBAHAN
+                </h3>
+                <p>
+                    Perintah ini hanya berlaku untuk flashdisk, tidak berlaku untuk harddisk eksternal
+                </p>
+            </blockquote>
+
+            <p>
+                Sebenarnya cara ini sudah lama digunakan, apalagi kamu yang sering ke tukang percetakan dan warnet apalagi. Soal Smadav sendiri ternyata mereka sudah mengimplementasikan ini, tapi hanya saja dalam bentuk GUI (Graphical User Interface) atau kita biasa menyebutnya dengan Antarmuka Pengguna Grafis agar pengguna yang masih awam mudah menggunakannya.<br>
+            </p>
+            <p>
+                Berdasarkan komentar dari warga threads, flashdisk ini sudah terinfeksi virus & ini sebenarnya sudah lama terjadi.
+            </p>
+
+            <figure>
+                <img src="../blogs/assets/2025-06-27-120724.png">
+            </figure>
+
+            <a href="../blogs.html" class="button">&larr; Kembali</a>
+        </main>
+
+
+    <footer>
+        <p>
+        	© 2020 - 2025 Lieba Natur Brilian | <a href="/id/changelog.html">changelog</a> | <a href="https://naturbrilian.atabook.org/" target="_blank">Guestbook</a><br>
+        	Situs web ini menggunakan warna tema dari <a href="https://catppuccin.com/" target="_blank">Catpuccin</a><br>
+        	Umpan balik seputar situs web ini bisa dikirimkan melalui <a href="mailto:gingalibadeidara@gmail.com">gingalibadeidara@gmail.com</a>
+        </p>
+        <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org --> 
+    </footer>            
+
+
+<style>
+	body {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+</style>             
